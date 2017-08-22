@@ -1,16 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="rectangle" >
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <corners
-        android:bottomLeftRadius="5dp"
-        android:bottomRightRadius="5dp"
-        android:radius="0.1dp"
-        android:topLeftRadius="5dp"
-        android:topRightRadius="5dp" />
-
-    <stroke
-        android:width="2dp"
-        android:color="#000" />
-
-</shape>
+    <item>
+        <shape>
+            <corners android:radius="6dp" />
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/colorGreenDark" />
+            <corners android:radius="6dp" />
+        </shape>
+    </item>
+    <item
+        android:left="65dp">
+        <!-- left is icon size + 2x side padding around icon-->
+        <!-- 18 + 8 + 8 -->
+        <shape>
+            <solid android:color="@android:color/white" />
+            <corners android:radius="6dp"
+                android:topRightRadius="6dp"
+                android:topLeftRadius="0dp"
+                android:bottomRightRadius="6dp"
+                android:bottomLeftRadius="0dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="6dp" />
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="1dp"
+                android:color="@color/colorGray" />
+        </shape>
+    </item>
+</layer-list>

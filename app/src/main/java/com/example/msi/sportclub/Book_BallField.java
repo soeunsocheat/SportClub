@@ -25,12 +25,12 @@ public class Book_BallField extends AppCompatActivity implements OnItemSelectedL
 
         // Spinner Drop down elements
         List<String> ballfield = new ArrayList<String>();
-        ballfield.add("1");
-        ballfield.add("2");
-        ballfield.add("3");
-        ballfield.add("4");
-        ballfield.add("5");
-        ballfield.add("6");
+        ballfield.add("  1  ");
+        ballfield.add("  2  ");
+        ballfield.add("  3  ");
+        ballfield.add("  4  ");
+        ballfield.add("  5  ");
+        ballfield.add("  6  ");
 
         // Creating adapter for spinner
         ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, ballfield);

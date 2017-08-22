@@ -30,22 +30,14 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="220dp"
+        android:layout_height="250dp"
         android:src="@mipmap/ic_sportclub" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Time : "
-        android:textSize="20dp"
-        android:fontFamily="serif"
-        android:layout_marginTop="10dp"
-        android:layout_gravity="center"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/colorPrimaryLight"
+        android:layout_marginTop="10dp"
         android:orientation="vertical">
 
         <HorizontalScrollView

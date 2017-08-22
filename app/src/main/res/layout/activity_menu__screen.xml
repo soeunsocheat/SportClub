@@ -19,44 +19,49 @@
             android:layout_centerVertical="true"
             android:src="@mipmap/ic_sportclub" />
     </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu"
+        android:textSize="48dp"
+        android:textColor="@color/colorDark"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        />
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:layout_marginTop="2dp"
-        android:background="@drawable/btn_green_sqare"
+        android:layout_marginTop="20dp"
         android:onClick="doHome"
+        android:layout_marginStart="60dp"
         android:orientation="horizontal">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@mipmap/ic_home"
-            android:layout_marginStart="20dp"
             android:layout_centerVertical="true"
             android:layout_alignParentStart="true" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Home"
-            android:textSize="28dp"
-            android:fontFamily="serif"
-            android:textColor="#000"
+            android:text="@string/home"
+            android:textSize="24dp"
+            android:textColor="@color/colorDark"
             android:layout_centerVertical="true"
-            android:layout_marginStart="80dp"
-            android:id="@+id/textView" />
+            android:layout_marginStart="80dp" />
     </RelativeLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@drawable/btn_green_sqare"
-        android:onClick="doLoginAccount">
+        android:onClick="doLoginAccount"
+        android:layout_marginStart="60dp" >
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
             android:src="@mipmap/ic_login_account"
             android:layout_centerVertical="true"
             android:layout_alignParentStart="true"/>
@@ -66,17 +71,16 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_marginStart="80dp"
-            android:fontFamily="serif"
-            android:text="Log In Account"
-            android:textColor="#000"
-            android:textSize="28dp" />
+            android:text="@string/loginaccount"
+            android:textColor="@color/colorDark"
+            android:textSize="24dp" />
     </RelativeLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@drawable/btn_green_sqare"
         android:onClick="doProfile"
+        android:layout_marginStart="60dp"
         android:orientation="horizontal">
 
         <ImageView
@@ -84,24 +88,22 @@
             android:layout_height="wrap_content"
             android:src="@mipmap/ic_profile"
             android:layout_centerVertical="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginStart="20dp" />
+            android:layout_alignParentStart="true" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Profile"
-            android:textSize="28dp"
-            android:fontFamily="serif"
-            android:textColor="#000"
+            android:text="@string/profile"
+            android:textSize="24dp"
+            android:textColor="@color/colorDark"
             android:layout_centerVertical="true"
             android:layout_marginStart="80dp" />
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@drawable/btn_green_sqare"
         android:onClick="doAboutUs"
+        android:layout_marginStart="60dp"
         android:orientation="horizontal">
 
         <ImageView
@@ -110,23 +112,22 @@
             android:src="@mipmap/ic_aboutus"
             android:layout_centerVertical="true"
             android:layout_alignParentStart="true"
-            android:layout_marginStart="20dp" />
+            />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="About Us"
-            android:textSize="28dp"
-            android:fontFamily="serif"
-            android:textColor="#000"
+            android:text="@string/aboutus"
+            android:textSize="24dp"
+            android:textColor="@color/colorDark"
             android:layout_centerVertical="true"
             android:layout_marginStart="80dp" />
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@drawable/btn_green_sqare"
         android:onClick="doFillFeedback"
+        android:layout_marginStart="60dp"
         android:orientation="horizontal">
 
         <ImageView
@@ -134,16 +135,14 @@
             android:layout_height="wrap_content"
             android:src="@mipmap/ic_fill_feedback"
             android:layout_centerVertical="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginStart="20dp" />
+            android:layout_alignParentStart="true" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Fill Feedback"
-            android:textSize="28dp"
-            android:fontFamily="serif"
-            android:textColor="#000"
+            android:text="@string/fill_feedback"
+            android:textSize="24dp"
+            android:textColor="@color/colorDark"
             android:layout_centerVertical="true"
             android:layout_marginStart="80dp" />
     </RelativeLayout>
